@@ -1,0 +1,319 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.team {
+  background: url("/plasmic/sections/images/sectionfootercontainerBgImage.jpg") center center / cover no-repeat;
+  width: 1440px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.overlay {
+  background: var(--token-_2HDMnPtARWb);
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+  padding: var(--token-fQom0GQieuR2) var(--token-zhyQmktbmxXO);
+}
+.overlay > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.overlay > :global(.__wab_flex-container) > *,
+.overlay > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.overlay > :global(.__wab_flex-container) > picture > img,
+.overlay
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.titleTeamBlock {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.titleTeamBlock > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - var(--token-GUIh1r3g7g-q));
+  height: calc(100% + var(--token-GUIh1r3g7g-q));
+}
+.titleTeamBlock > :global(.__wab_flex-container) > *,
+.titleTeamBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.titleTeamBlock > :global(.__wab_flex-container) > picture > img,
+.titleTeamBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-GUIh1r3g7g-q);
+}
+.kickerTitleContent {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.kickerTitleContent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - var(--token-slZDLpf0hCwA));
+  height: calc(100% + var(--token-slZDLpf0hCwA));
+}
+.kickerTitleContent > :global(.__wab_flex-container) > *,
+.kickerTitleContent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.kickerTitleContent > :global(.__wab_flex-container) > picture > img,
+.kickerTitleContent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-slZDLpf0hCwA);
+}
+.text__gavr7 {
+  font-family: var(--token-kY52QQTxQoSA);
+  font-size: var(--token-GrDGOqCbVvJk);
+  text-transform: none;
+  line-height: var(--token-zrmlpRjbkkbt);
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: var(--token-NFbQOfQAu2hz);
+  align-self: stretch;
+  position: relative;
+}
+.titleContent {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.titleContent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - var(--token-JNL3madB73D2));
+  height: calc(100% + var(--token-JNL3madB73D2));
+}
+.titleContent > :global(.__wab_flex-container) > *,
+.titleContent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.titleContent > :global(.__wab_flex-container) > picture > img,
+.titleContent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-JNL3madB73D2);
+}
+.text__jexDh {
+  font-family: var(--token-m15uFg7UOD4G);
+  font-size: var(--token-34JfjYuvBSgj);
+  line-height: var(--token-MxFTDhkYLJCO);
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--token-UAQp5FOpTXde);
+  align-self: stretch;
+  position: relative;
+}
+.text__fcyuy {
+  display: block;
+  font-size: 19px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: var(--token-b_wxrXOjN7Aq);
+  align-self: stretch;
+  position: relative;
+}
+.teamBlock {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.teamBlock > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - var(--token-adLMaeyFGX6I));
+  height: calc(100% + var(--token-adLMaeyFGX6I));
+}
+.teamBlock > :global(.__wab_flex-container) > *,
+.teamBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.teamBlock > :global(.__wab_flex-container) > picture > img,
+.teamBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-adLMaeyFGX6I);
+}
+.row {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.row > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: calc(0px - var(--token-CHegJ4CNyvFk));
+  width: calc(100% + var(--token-CHegJ4CNyvFk));
+}
+.row > :global(.__wab_flex-container) > *,
+.row > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.row > :global(.__wab_flex-container) > picture > img,
+.row > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: var(--token-CHegJ4CNyvFk);
+}
+.userCard:global(.__wab_instance) {
+  width: 390px;
+  height: 488px;
+  position: relative;
+  flex-shrink: 0;
+}
+.text___8EePh {
+  font-family: var(--token-15xaulW5C-0T);
+  font-size: var(--token-HjiLdMfeoUR8);
+  line-height: var(--token-aSVdq3zAnSwE);
+  color: var(--token-f5ry9h-7Q3u1);
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.userCard2:global(.__wab_instance) {
+  width: 390px;
+  height: 488px;
+  position: relative;
+  flex-shrink: 0;
+}
+.text__wdUdi {
+  font-family: var(--token-15xaulW5C-0T);
+  font-size: var(--token-HjiLdMfeoUR8);
+  line-height: var(--token-aSVdq3zAnSwE);
+  color: var(--token-f5ry9h-7Q3u1);
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.userCard3:global(.__wab_instance) {
+  width: 390px;
+  height: 398px;
+  position: relative;
+  flex-shrink: 0;
+}
+.text__f01Dy {
+  font-family: var(--token-15xaulW5C-0T);
+  font-size: var(--token-HjiLdMfeoUR8);
+  line-height: var(--token-aSVdq3zAnSwE);
+  color: var(--token-f5ry9h-7Q3u1);
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.row2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.row2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: calc(0px - var(--token-CHegJ4CNyvFk));
+  width: calc(100% + var(--token-CHegJ4CNyvFk));
+}
+.row2 > :global(.__wab_flex-container) > *,
+.row2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.row2 > :global(.__wab_flex-container) > picture > img,
+.row2 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: var(--token-CHegJ4CNyvFk);
+}
+.userCard4:global(.__wab_instance) {
+  width: 390px;
+  height: 488px;
+  position: relative;
+  flex-shrink: 0;
+}
+.text___0Hfa7 {
+  font-family: var(--token-15xaulW5C-0T);
+  font-size: var(--token-HjiLdMfeoUR8);
+  line-height: var(--token-aSVdq3zAnSwE);
+  color: var(--token-f5ry9h-7Q3u1);
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.userCard5:global(.__wab_instance) {
+  width: 390px;
+  height: 488px;
+  position: relative;
+  flex-shrink: 0;
+}
+.text__vuCt3 {
+  font-family: var(--token-15xaulW5C-0T);
+  font-size: var(--token-HjiLdMfeoUR8);
+  line-height: var(--token-aSVdq3zAnSwE);
+  color: var(--token-f5ry9h-7Q3u1);
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.userCard6:global(.__wab_instance) {
+  width: 390px;
+  height: 398px;
+  position: relative;
+  flex-shrink: 0;
+}
+.text___4K7Zz {
+  font-family: var(--token-15xaulW5C-0T);
+  font-size: var(--token-HjiLdMfeoUR8);
+  line-height: var(--token-aSVdq3zAnSwE);
+  color: var(--token-f5ry9h-7Q3u1);
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}

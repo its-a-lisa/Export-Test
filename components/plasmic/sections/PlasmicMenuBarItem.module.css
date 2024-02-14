@@ -1,0 +1,98 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background: none;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 0.1s;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.1s;
+  border-radius: 6px;
+  padding: 12px 20px;
+  border: 0px solid var(--token-76aRTpqMouZQ);
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.rootisDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.root:hover {
+  background: var(--token-gTcMPmItJCY9);
+  border-color: var(--token-K08iVPDPMDe-);
+}
+.rootstyled_onAccent:hover {
+  background: var(--token-K1OBz3es4fQ8);
+}
+.startIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.slotTargetStartIcon {
+  color: var(--token-3AaJvPDF95Jg);
+}
+.root:hover .slotTargetStartIcon {
+  color: var(--token-ZZ1cGeov2Mma);
+}
+.svg__yMv4X {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.slotTargetChildren {
+  color: var(--token-DDrKyWFf0vi1);
+  font-weight: 400;
+  white-space: pre;
+}
+.slotTargetChildrenstyled_onAccent {
+  font-weight: 600;
+}
+.root:hover .slotTargetChildren {
+  color: var(--token-DDrKyWFf0vi1);
+}
+.rootstyled_onAccent:hover .slotTargetChildrenstyled_onAccent {
+  color: var(--token-4X-HaueCgERT);
+  font-weight: 400;
+}
+.endIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.slotTargetEndIcon {
+  color: var(--token-3AaJvPDF95Jg);
+}
+.root:hover .slotTargetEndIcon {
+  color: var(--token-ZZ1cGeov2Mma);
+}
+.svg__mMq11 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}

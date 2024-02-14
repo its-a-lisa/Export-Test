@@ -1,0 +1,1558 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700&display=swap");
+
+.plasmic_tokens {
+  --token-KqR_M-7twSBJ: var(--token-KNb7AGcpJ6rn);
+  --plasmic-token-semantic-color-fg-default: var(--token-KqR_M-7twSBJ);
+  --token-qE3WIa3mglkz: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-fg-on-accent: var(--token-qE3WIa3mglkz);
+  --token-9KB0aafanGaO: var(--token-55JD5aW4soBJ);
+  --plasmic-token-semantic-color-fg-muted: var(--token-9KB0aafanGaO);
+  --token-9KrbJrEIw8cd: var(--token-KZ8RX47fDRT9);
+  --plasmic-token-semantic-color-fg-subtle: var(--token-9KrbJrEIw8cd);
+  --token-LYTHqgOUrNpz: var(--token-GGanY0i052Fi);
+  --plasmic-token-semantic-color-fg-on-disabled: var(--token-LYTHqgOUrNpz);
+  --token-RBhRbJtWG5jK: var(--token-ikn3Uq-GYB5y);
+  --plasmic-token-semantic-color-bg-surface-normal: var(--token-RBhRbJtWG5jK);
+  --token-e5Wjj4oQBzAe: var(--token-ikn3Uq-GYB5y);
+  --plasmic-token-semantic-color-bg-subtle: var(--token-e5Wjj4oQBzAe);
+  --token-Ya-vX66_zxAs: var(--token-n2lB76Wueu_J);
+  --plasmic-token-semantic-color-bg-muted: var(--token-Ya-vX66_zxAs);
+  --token-dSMTePUPQ-wD: var(--token-uBq_aIHzkEzm);
+  --plasmic-token-semantic-color-bg-canvas: var(--token-dSMTePUPQ-wD);
+  --token-b4Q2BZW0I-nC: var(--token-WQ3x2_VY3b9h);
+  --plasmic-token-semantic-color-bg-overlay: var(--token-b4Q2BZW0I-nC);
+  --token-8WmgDiHdU4mv: var(--token-dEkXudMX4gDj);
+  --plasmic-token-semantic-color-base-disabled: var(--token-8WmgDiHdU4mv);
+  --token-k3xLqgWid9RU: var(--token-N84l68BHa9oP);
+  --plasmic-token-semantic-color-base-default: var(--token-k3xLqgWid9RU);
+  --token-LJqgWpaLXjNM: var(--token-UOOmtfroH_6V);
+  --plasmic-token-semantic-color-base-subtle: var(--token-LJqgWpaLXjNM);
+  --token-4hshm6OItBjN: var(--token-qoqCtqyI-mvt);
+  --plasmic-token-semantic-color-base-muted: var(--token-4hshm6OItBjN);
+  --token-I65TQQy0p8j6: var(--token--mh0Nl3RRqpC);
+  --plasmic-token-semantic-color-base-emphasis: var(--token-I65TQQy0p8j6);
+  --token-ydOHfMfFo2LL: var(--token-nWbTvvoKHdcQ);
+  --plasmic-token-semantic-color-warning-default: var(--token-ydOHfMfFo2LL);
+  --token-qD6sJrlMw8ho: var(--token-FMTq2wIL-oqA);
+  --plasmic-token-semantic-color-warning-subtle: var(--token-qD6sJrlMw8ho);
+  --token-zoiD_bBdGOcQ: var(--token-M8EXbJ9d1JpT);
+  --plasmic-token-semantic-color-warning-muted: var(--token-zoiD_bBdGOcQ);
+  --token-p7m2qSkgMRs0: var(--token-QiyUb5p_PXow);
+  --plasmic-token-semantic-color-warning-emphasis: var(--token-p7m2qSkgMRs0);
+  --token-r0L9eeSfrmpd: var(--token-KNb7AGcpJ6rn);
+  --plasmic-token-semantic-color-warning-on-warning: var(--token-r0L9eeSfrmpd);
+  --token-bSauKiwW7lEx: var(--token-ze015CIfrsRs);
+  --plasmic-token-semantic-color-info-default: var(--token-bSauKiwW7lEx);
+  --token-AOWNbiWgaxix: var(--token-Gstn2hC1EOuv);
+  --plasmic-token-semantic-color-info-subtle: var(--token-AOWNbiWgaxix);
+  --token-rizoZZapabzT: var(--token-G9JXc6Botwiw);
+  --plasmic-token-semantic-color-info-muted: var(--token-rizoZZapabzT);
+  --token-4x-I9nG48q_I: var(--token-83djaRf_EIp0);
+  --plasmic-token-semantic-color-info-emphasis: var(--token-4x-I9nG48q_I);
+  --token-YT4I6bCqYO-K: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-info-on-info: var(--token-YT4I6bCqYO-K);
+  --token-R2IYBXUi-kkg: var(--token-cXqfrIU0zFs2);
+  --plasmic-token-semantic-color-error-default: var(--token-R2IYBXUi-kkg);
+  --token-RNTtbilffCIl: var(--token-A2XEFtUDBmd9);
+  --plasmic-token-semantic-color-error-subtle: var(--token-RNTtbilffCIl);
+  --token-_XUhig7kptw8: var(--token-4IlNIK4_7Ocl);
+  --plasmic-token-semantic-color-error-muted: var(--token-_XUhig7kptw8);
+  --token-DrGiur5l0zMh: var(--token-WLWU9OtomZdl);
+  --plasmic-token-semantic-color-error-emphasis: var(--token-DrGiur5l0zMh);
+  --token--0OtcYJxFugL: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-error-on-error: var(--token--0OtcYJxFugL);
+  --token-KnHG6jTNV5NB: var(--token-fVNPmB5OVv_R);
+  --plasmic-token-semantic-color-success-default: var(--token-KnHG6jTNV5NB);
+  --token-kAXhk_6SKw_4: var(--token-lxkXZ0j9G8SX);
+  --plasmic-token-semantic-color-success-subtle: var(--token-kAXhk_6SKw_4);
+  --token-sBbqN4IWcMbn: var(--token-A32I6gql0wPf);
+  --plasmic-token-semantic-color-success-muted: var(--token-sBbqN4IWcMbn);
+  --token-ueNGsyqqiAwF: var(--token-HYYIBntlD8ye);
+  --plasmic-token-semantic-color-success-emphasis: var(--token-ueNGsyqqiAwF);
+  --token-YY8n4YFxMjNh: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-success-on-success: var(--token-YY8n4YFxMjNh);
+  --token-m15uFg7UOD4G: Inter;
+  --plasmic-token-semantic-font-families-headlines: var(--token-m15uFg7UOD4G);
+  --token-kY52QQTxQoSA: Inter;
+  --plasmic-token-semantic-font-families-body: var(--token-kY52QQTxQoSA);
+  --token-vigOYMvyYzJ2: Inter;
+  --plasmic-token-semantic-font-families-captions: var(--token-vigOYMvyYzJ2);
+  --token-mYKwNLd-OrSQ: 1.1;
+  --plasmic-token-semantic-line-heights-headlines-xl: var(--token-mYKwNLd-OrSQ);
+  --token-O-oOhnrbYSe2: 1.1;
+  --plasmic-token-semantic-line-heights-headlines-lg: var(--token-O-oOhnrbYSe2);
+  --token-MxFTDhkYLJCO: 1.1;
+  --plasmic-token-semantic-line-heights-headlines-default: var(
+    --token-MxFTDhkYLJCO
+  );
+  --token-uouk9XvHce41: 1.3;
+  --plasmic-token-semantic-line-heights-headlines-sm: var(--token-uouk9XvHce41);
+  --token-U9IwEisTbTkL: 1.75;
+  --plasmic-token-semantic-line-heights-body-relaxed: var(--token-U9IwEisTbTkL);
+  --token-zrmlpRjbkkbt: 1.5;
+  --plasmic-token-semantic-line-heights-body-default: var(--token-zrmlpRjbkkbt);
+  --token-GrDGOqCbVvJk: 16px;
+  --plasmic-token-semantic-font-size-base: var(--token-GrDGOqCbVvJk);
+  --token-bmTyPRdJd2_M: 119px;
+  --plasmic-token-semantic-font-size-10-xl: var(--token-bmTyPRdJd2_M);
+  --token-0r3-2zF70f3W: 28px;
+  --plasmic-token-semantic-font-size-2-xl: var(--token-0r3-2zF70f3W);
+  --token-wQED-zOfWfVK: 33px;
+  --plasmic-token-semantic-font-size-3-xl: var(--token-wQED-zOfWfVK);
+  --token-8jf8KV0VDDqv: 40px;
+  --plasmic-token-semantic-font-size-4-xl: var(--token-8jf8KV0VDDqv);
+  --token-34JfjYuvBSgj: 48px;
+  --plasmic-token-semantic-font-size-5-xl: var(--token-34JfjYuvBSgj);
+  --token-Vqxh0nU4Gk-v: 57px;
+  --plasmic-token-semantic-font-size-6-xl: var(--token-Vqxh0nU4Gk-v);
+  --token-UcEAb5RTRrMR: 69px;
+  --plasmic-token-semantic-font-size-7-xl: var(--token-UcEAb5RTRrMR);
+  --token-D-GHW4AKMzup: 83px;
+  --plasmic-token-semantic-font-size-8-xl: var(--token-D-GHW4AKMzup);
+  --token-KW-qLP61lnCw: 99px;
+  --plasmic-token-semantic-font-size-9-xl: var(--token-KW-qLP61lnCw);
+  --token-OZZuEmAVjRrI: 19px;
+  --plasmic-token-semantic-font-size-lg: var(--token-OZZuEmAVjRrI);
+  --token-wuEuHa3oGZLx: 11px;
+  --plasmic-token-semantic-font-size-xs: var(--token-wuEuHa3oGZLx);
+  --token-bi0CkUjTI3dK: 9px;
+  --plasmic-token-semantic-font-size-xxs: var(--token-bi0CkUjTI3dK);
+  --token-7BaskAzTx7Nm: 16px;
+  --plasmic-token-semantic-font-size-md: var(--token-7BaskAzTx7Nm);
+  --token-HRSbTGFTSZwr: 23px;
+  --plasmic-token-semantic-font-size-xl: var(--token-HRSbTGFTSZwr);
+  --token-r0BTDu6mvzY4: 13px;
+  --plasmic-token-semantic-font-size-sm: var(--token-r0BTDu6mvzY4);
+  --token-9nNZcPCpf7Qu: var(--token-1d8PCamrQfY1);
+  --plasmic-token-semantic-space-between-comp-xs: var(--token-9nNZcPCpf7Qu);
+  --token-Cnmzh9fpSo4p: var(--token-hoPTlGvCJB2k);
+  --plasmic-token-semantic-space-between-comp-sm: var(--token-Cnmzh9fpSo4p);
+  --token-PtsrIACGH2w1: var(--token-m143zgEnbRy2);
+  --plasmic-token-semantic-space-between-comp-md: var(--token-PtsrIACGH2w1);
+  --token-lb9rugmM4wsJ: var(--token-1d8PCamrQfY1);
+  --plasmic-token-semantic-space-between-pattern-xs: var(--token-lb9rugmM4wsJ);
+  --token-K82P8LyGKs3-: var(--token-hoPTlGvCJB2k);
+  --plasmic-token-semantic-space-between-pattern-sm: var(--token-K82P8LyGKs3-);
+  --token-6wBX3GEBiklS: var(--token-PI2zABKUl0Jo);
+  --plasmic-token-semantic-space-between-pattern-md: var(--token-6wBX3GEBiklS);
+  --token-z61_Sous0EY4: var(--token-uhyzIf_XTqQm);
+  --plasmic-token-semantic-space-between-pattern-lg: var(--token-z61_Sous0EY4);
+  --token-HSbyD8r--Pvi: var(--token-nt2oqOS4i_ui);
+  --plasmic-token-semantic-space-between-pattern-xl: var(--token-HSbyD8r--Pvi);
+  --token-DRASwRiNaSKm: var(--token-PI2zABKUl0Jo);
+  --plasmic-token-semantic-space-between-section-xxs: var(--token-DRASwRiNaSKm);
+  --token-4hBA6XlxJwet: var(--token-uhyzIf_XTqQm);
+  --plasmic-token-semantic-space-between-section-xs: var(--token-4hBA6XlxJwet);
+  --token-lfNIkJu2VcbG: var(--token-nt2oqOS4i_ui);
+  --plasmic-token-semantic-space-between-section-sm: var(--token-lfNIkJu2VcbG);
+  --token-PRBN4Y2Sjf_V: var(--token-StIqhemIdZD6);
+  --plasmic-token-semantic-space-between-section-md: var(--token-PRBN4Y2Sjf_V);
+  --token-P5aX1KLqXkqQ: var(--token-TgGfF75-slxR);
+  --plasmic-token-semantic-space-between-section-lg: var(--token-P5aX1KLqXkqQ);
+  --token-dQ8kEuxVvcA-: var(--token-iCKs9Pldyx11);
+  --plasmic-token-semantic-space-between-section-xl: var(--token-dQ8kEuxVvcA-);
+  --token-Y0k34pPINYxs: var(--token-5Hgk0Gu5Ctut);
+  --plasmic-token-semantic-space-between-section-xxl: var(--token-Y0k34pPINYxs);
+  --token-l9ViNiVT6i4E: var(--token-hoPTlGvCJB2k);
+  --plasmic-token-semantic-space-around-comp-sm: var(--token-l9ViNiVT6i4E);
+  --token-IwuO14Fl1Lup: var(--token-m143zgEnbRy2);
+  --plasmic-token-semantic-space-around-comp-md: var(--token-IwuO14Fl1Lup);
+  --token-LMR4pXMrDwD2: var(--token-PI2zABKUl0Jo);
+  --plasmic-token-semantic-space-around-comp-lg: var(--token-LMR4pXMrDwD2);
+  --token-mbiBLQ6M9OpB: var(--token-TgGfF75-slxR);
+  --plasmic-token-semantic-space-around-pattern-md: var(--token-mbiBLQ6M9OpB);
+  --token-ct2TT5I16S8N: var(--token-StIqhemIdZD6);
+  --plasmic-token-semantic-space-around-section-xxs: var(--token-ct2TT5I16S8N);
+  --token-vwsEOfoYvk4C: var(--token-iCKs9Pldyx11);
+  --plasmic-token-semantic-space-around-section-xs: var(--token-vwsEOfoYvk4C);
+  --token-kAKn4VjNfMhR: var(--token-5Hgk0Gu5Ctut);
+  --plasmic-token-semantic-space-around-section-sm: var(--token-kAKn4VjNfMhR);
+  --token-rrYLCEAbHg4E: var(--token-WRd3b11CFE75);
+  --plasmic-token-semantic-space-around-section-md: var(--token-rrYLCEAbHg4E);
+  --token-mBa8rtpd9VwB: var(--token-3hMYzKtmiRnN);
+  --plasmic-token-semantic-space-around-section-lg: var(--token-mBa8rtpd9VwB);
+  --token-pmbVX5pnjiUY: var(--token-YEbSKGPqYxqw);
+  --plasmic-token-semantic-space-around-section-xl: var(--token-pmbVX5pnjiUY);
+  --token-GOrbF6CfvRij: var(--token-uwcOemA_um2R);
+  --plasmic-token-semantic-space-around-section-xxl: var(--token-GOrbF6CfvRij);
+  --token-vcW2HCtwrXir: var(--token-IvLPw-9C4nGv);
+  --plasmic-token-semantic-size-comp-sm: var(--token-vcW2HCtwrXir);
+  --token-YyV_y8yEF_Cs: var(--token-B8ZqNxCSw_zl);
+  --plasmic-token-semantic-size-comp-md: var(--token-YyV_y8yEF_Cs);
+  --token-dr6IZEk0jhdi: var(--token-nIcNEpKyNepi);
+  --plasmic-token-semantic-size-comp-lg: var(--token-dr6IZEk0jhdi);
+  --token-YbsTzNRUPQ0L: var(--token-17s5CRys5Od6);
+  --plasmic-token-semantic-size-pattern-md: var(--token-YbsTzNRUPQ0L);
+  --token-7SIG18chC7Ya: var(--token-q-Jp2digi_9N);
+  --plasmic-token-semantic-size-pattern-lg: var(--token-7SIG18chC7Ya);
+  --token-7iVMh5joLdmS: var(--token-Qy9Hv_4Sxj3-);
+  --plasmic-token-semantic-size-section-sm: var(--token-7iVMh5joLdmS);
+  --token-nDaPgm6m1PVU: var(--token-nIcNEpKyNepi);
+  --plasmic-token-semantic-size-section-md: var(--token-nDaPgm6m1PVU);
+  --token-lkdCQxFqq1Sm: var(--token-kQixXS6zRs1O);
+  --plasmic-token-semantic-size-section-lg: var(--token-lkdCQxFqq1Sm);
+  --token-cp7pTejnZKUd: var(--token-9a2eXJXaNZ6N);
+  --plasmic-token-semantic-color-primary-default: var(--token-cp7pTejnZKUd);
+  --token-UcF8PLmigzl_: var(--token-wmyYPS9fyTQ-);
+  --plasmic-token-semantic-color-primary-disabled: var(--token-UcF8PLmigzl_);
+  --token-GVbJH5wGUXmu: var(--token-Sl12EkH00y4P);
+  --plasmic-token-semantic-color-primary-emphasis: var(--token-GVbJH5wGUXmu);
+  --token-XPrLd8jgs4iF: var(--token-NzDnaGXT8vau);
+  --plasmic-token-semantic-color-primary-muted: var(--token-XPrLd8jgs4iF);
+  --token-fChKWRppd9a2: var(--token-Iq-yo7JMJdqa);
+  --plasmic-token-semantic-color-primary-subtle: var(--token-fChKWRppd9a2);
+  --token-viXIfeAkcdVe: var(--token-_r_H8wjlH66T);
+  --plasmic-token-semantic-color-secondary-default: var(--token-viXIfeAkcdVe);
+  --token-M_bq_sL1nT7k: var(--token-wmyYPS9fyTQ-);
+  --plasmic-token-semantic-color-secondary-disabled: var(--token-M_bq_sL1nT7k);
+  --token-i70UBQLNtCOB: var(--token-09RuDH06bgXw);
+  --plasmic-token-semantic-color-secondary-emphasis: var(--token-i70UBQLNtCOB);
+  --token-4SDKFzaLGDqM: var(--token-OvdWPCJLOCoY);
+  --plasmic-token-semantic-color-secondary-muted: var(--token-4SDKFzaLGDqM);
+  --token-y4ljgQFClUJ4: var(--token-V1tA7SortyCo);
+  --plasmic-token-semantic-color-secondary-subtle: var(--token-y4ljgQFClUJ4);
+  --token-dqjNjHuaow7-: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-bg-page: var(--token-dqjNjHuaow7-);
+  --token-ckaxoROoCJV7: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-bg-body: var(--token-ckaxoROoCJV7);
+  --token-oftubgSib4C3: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-bg-surface-invert: var(--token-oftubgSib4C3);
+  --token-QJrydy6204R_: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-bg-surface-raised: var(--token-QJrydy6204R_);
+  --token-ZNUi7Wt49Chi: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-bg-strong: var(--token-ZNUi7Wt49Chi);
+  --token-XBP_Y81L5amj: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-bg-input-normal: var(--token-XBP_Y81L5amj);
+  --token-uNWFPhyOltr_: var(--token-ikn3Uq-GYB5y);
+  --plasmic-token-semantic-color-bg-input-hover: var(--token-uNWFPhyOltr_);
+  --token-Dba3ih_5a2vT: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-bg-input-focus: var(--token-Dba3ih_5a2vT);
+  --token-15yg_1b46AkZ: var(--token-ikn3Uq-GYB5y);
+  --plasmic-token-semantic-color-bg-input-disabled: var(--token-15yg_1b46AkZ);
+  --token-Fiz2RDpS62S_: var(--token-9a2eXJXaNZ6N);
+  --plasmic-token-semantic-color-bg-primary-normal: var(--token-Fiz2RDpS62S_);
+  --token-gSqMquZFYqAm: var(--token--tYGLCqEUcS6);
+  --plasmic-token-semantic-color-bg-primary-hover: var(--token-gSqMquZFYqAm);
+  --token-mlXmPIq-jRaB: var(--token-NzDnaGXT8vau);
+  --plasmic-token-semantic-color-bg-primary-sublte: var(--token-mlXmPIq-jRaB);
+  --token-0MkV9RzVNd2l: var(--token-Sl12EkH00y4P);
+  --plasmic-token-semantic-color-bg-primary-sublte-hover: var(
+    --token-0MkV9RzVNd2l
+  );
+  --token-gnT5gvdCOHlo: var(--token-9a2eXJXaNZ6N);
+  --plasmic-token-semantic-color-bg-primary-focus: var(--token-gnT5gvdCOHlo);
+  --token-EjP1vvR_KkFv: var(--token-VonJXovvr9NI);
+  --plasmic-token-semantic-color-primary-950: var(--token-EjP1vvR_KkFv);
+  --token-CcQkd2KD0yiG: var(--token-VonJXovvr9NI);
+  --plasmic-token-semantic-color-primary-900: var(--token-CcQkd2KD0yiG);
+  --token-snmtB4GcBlao: var(--token-1dJrWgpygB1Z);
+  --plasmic-token-semantic-color-primary-800: var(--token-snmtB4GcBlao);
+  --token--tYGLCqEUcS6: var(--token-VjaT4bJ5b0Ft);
+  --plasmic-token-semantic-color-primary-700: var(--token--tYGLCqEUcS6);
+  --token-Sl12EkH00y4P: var(--token-ktU38lLI4-Wh);
+  --plasmic-token-semantic-color-primary-600: var(--token-Sl12EkH00y4P);
+  --token-9a2eXJXaNZ6N: var(--token-hXNPNdKO2gD3);
+  --plasmic-token-semantic-color-primary-500: var(--token-9a2eXJXaNZ6N);
+  --token-NzDnaGXT8vau: var(--token-Bm7W9P_o0HOp);
+  --plasmic-token-semantic-color-primary-400: var(--token-NzDnaGXT8vau);
+  --token-WjqpSpQLjl3l: var(--token-KU-nLpUkp_MG);
+  --plasmic-token-semantic-color-primary-300: var(--token-WjqpSpQLjl3l);
+  --token-n2p6w_3hB17e: var(--token-3pUurYsPN6H2);
+  --plasmic-token-semantic-color-primary-200: var(--token-n2p6w_3hB17e);
+  --token-67DELaVllbAH: var(--token-yFV3EKmdbPAg);
+  --plasmic-token-semantic-color-primary-100: var(--token-67DELaVllbAH);
+  --token-Iq-yo7JMJdqa: var(--token-UUfsN90TDsRz);
+  --plasmic-token-semantic-color-primary-50: var(--token-Iq-yo7JMJdqa);
+  --token-vGlQPZOSL9GA: var(--token-Ni3DM5PO1NzD);
+  --plasmic-token-semantic-color-secondary-950: var(--token-vGlQPZOSL9GA);
+  --token-KPLIA2f0dJrW: var(--token-Ni3DM5PO1NzD);
+  --plasmic-token-semantic-color-secondary-900: var(--token-KPLIA2f0dJrW);
+  --token-uz5KFX42iEO_: var(--token--inYxKXWQX_Z);
+  --plasmic-token-semantic-color-secondary-800: var(--token-uz5KFX42iEO_);
+  --token-OV4IwELy0rU9: var(--token-R4EEiwKty9No);
+  --plasmic-token-semantic-color-secondary-700: var(--token-OV4IwELy0rU9);
+  --token-09RuDH06bgXw: var(--token-rDIiRnLxqZfu);
+  --plasmic-token-semantic-color-secondary-600: var(--token-09RuDH06bgXw);
+  --token-_r_H8wjlH66T: var(--token-ZcTIFbqnGTVo);
+  --plasmic-token-semantic-color-secondary-500: var(--token-_r_H8wjlH66T);
+  --token-OvdWPCJLOCoY: var(--token-TcrYnW_VhIDO);
+  --plasmic-token-semantic-color-secondary-400: var(--token-OvdWPCJLOCoY);
+  --token-1XkIwgZqibQC: var(--token-xu3Ppuhf4NPW);
+  --plasmic-token-semantic-color-secondary-300: var(--token-1XkIwgZqibQC);
+  --token-0_8cywYpxP3f: var(--token-2iT_sfkai7fJ);
+  --plasmic-token-semantic-color-secondary-200: var(--token-0_8cywYpxP3f);
+  --token-hIxBU051Sqnn: var(--token-U_rQ3ct-Tt8v);
+  --plasmic-token-semantic-color-secondary-100: var(--token-hIxBU051Sqnn);
+  --token-V1tA7SortyCo: var(--token-qeQzvBrO5AYA);
+  --plasmic-token-semantic-color-secondary-50: var(--token-V1tA7SortyCo);
+  --token-kwFcMvBPvbO5: var(--token-Sl12EkH00y4P);
+  --plasmic-token-semantic-color-bg-primary-active: var(--token-kwFcMvBPvbO5);
+  --token-L3BYbsOHsVR7: var(--token-67DELaVllbAH);
+  --plasmic-token-semantic-color-bg-primary-disabled: var(--token-L3BYbsOHsVR7);
+  --token-n26AIPK1ASym: var(--token-Iq-yo7JMJdqa);
+  --plasmic-token-semantic-color-bg-primary-muted: var(--token-n26AIPK1ASym);
+  --token-zbTS1JVVFDHR: var(--token-KnHG6jTNV5NB);
+  --plasmic-token-semantic-color-bg-success-normal: var(--token-zbTS1JVVFDHR);
+  --token-HoiNQ82Ub7zT: var(--token-sBbqN4IWcMbn);
+  --plasmic-token-semantic-color-bg-success-muted: var(--token-HoiNQ82Ub7zT);
+  --token-xNkb7cdfVA1S: var(--token-ueNGsyqqiAwF);
+  --plasmic-token-semantic-color-bg-success-hover: var(--token-xNkb7cdfVA1S);
+  --token-hNF-wDYoEbC6: var(--token-p7m2qSkgMRs0);
+  --plasmic-token-semantic-color-bg-warning-hover: var(--token-hNF-wDYoEbC6);
+  --token-kuhH_4b-J6kW: var(--token-ydOHfMfFo2LL);
+  --plasmic-token-semantic-color-bg-warning-normal: var(--token-kuhH_4b-J6kW);
+  --token-DsroY5Ao1IUd: var(--token-qD6sJrlMw8ho);
+  --plasmic-token-semantic-color-bg-warning-muted: var(--token-DsroY5Ao1IUd);
+  --token-lANibXQxZl41: var(--token-DrGiur5l0zMh);
+  --plasmic-token-semantic-color-bg-error-hover: var(--token-lANibXQxZl41);
+  --token-4TN5m5vVsiON: var(--token-R2IYBXUi-kkg);
+  --plasmic-token-semantic-color-bg-error-normal: var(--token-4TN5m5vVsiON);
+  --token-xua4aldQ3Izn: var(--token-RNTtbilffCIl);
+  --plasmic-token-semantic-color-bg-error-muted: var(--token-xua4aldQ3Izn);
+  --token-otJXNmlScUHc: var(--token-4x-I9nG48q_I);
+  --plasmic-token-semantic-color-bg-info-hover: var(--token-otJXNmlScUHc);
+  --token-J0U54tIZb7GM: var(--token-bSauKiwW7lEx);
+  --plasmic-token-semantic-color-bg-info-normal: var(--token-J0U54tIZb7GM);
+  --token-ZqNLM8rn8Ayn: var(--token-AOWNbiWgaxix);
+  --plasmic-token-semantic-color-bg-info-muted: var(--token-ZqNLM8rn8Ayn);
+  --token-KIqSMbpM9I8E: var(--token-rpljxh07I7JR);
+  --plasmic-token-semantic-color-border-container: var(--token-KIqSMbpM9I8E);
+  --token-6i5T1EPngAMm: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-border-strong: var(--token-6i5T1EPngAMm);
+  --token-IF5NouCQ7uRc: var(--token-ikn3Uq-GYB5y);
+  --plasmic-token-semantic-color-border-subtle: var(--token-IF5NouCQ7uRc);
+  --token-C6zoZBaB6ENu: var(--token-dEkXudMX4gDj);
+  --plasmic-token-semantic-color-border-inactive: var(--token-C6zoZBaB6ENu);
+  --token-gyuDo7uzLq09: var(--token-dEkXudMX4gDj);
+  --plasmic-token-semantic-color-border-input-normal: var(--token-gyuDo7uzLq09);
+  --token-yWRxBstiyb07: var(--token-rpljxh07I7JR);
+  --plasmic-token-semantic-color-border-input-hover: var(--token-yWRxBstiyb07);
+  --token-F-NyLLIM30En: var(--token-dEkXudMX4gDj);
+  --plasmic-token-semantic-color-border-input-disabled: var(
+    --token-F-NyLLIM30En
+  );
+  --token-PMfBe-MbOxay: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-border-primary-normal: var(
+    --token-PMfBe-MbOxay
+  );
+  --token-ZfeKMGpy_T2Z: var(--token--tYGLCqEUcS6);
+  --plasmic-token-semantic-color-border-primary-hover: var(
+    --token-ZfeKMGpy_T2Z
+  );
+  --token-Tu60Pghtp5E9: var(--token-NzDnaGXT8vau);
+  --plasmic-token-semantic-color-border-primary-subtle: var(
+    --token-Tu60Pghtp5E9
+  );
+  --token-y6TXUtpTZpn1: var(--token-Sl12EkH00y4P);
+  --plasmic-token-semantic-color-border-primary-subtle-hover: var(
+    --token-y6TXUtpTZpn1
+  );
+  --token-v8KoCkE_WPjt: var(--token-UOOmtfroH_6V);
+  --plasmic-token-semantic-color-base-50: var(--token-v8KoCkE_WPjt);
+  --token-ikn3Uq-GYB5y: var(--token-y_Atr-m_faE2);
+  --plasmic-token-semantic-color-base-100: var(--token-ikn3Uq-GYB5y);
+  --token-56t21AlRJeiC: var(--token-n2lB76Wueu_J);
+  --plasmic-token-semantic-color-base-200: var(--token-56t21AlRJeiC);
+  --token-dEkXudMX4gDj: var(--token-_Th34K8C4ChG);
+  --plasmic-token-semantic-color-base-300: var(--token-dEkXudMX4gDj);
+  --token-rpljxh07I7JR: var(--token-qoqCtqyI-mvt);
+  --plasmic-token-semantic-color-base-400: var(--token-rpljxh07I7JR);
+  --token-N84l68BHa9oP: var(--token-vsk_EB9Jnj7p);
+  --plasmic-token-semantic-color-base-500: var(--token-N84l68BHa9oP);
+  --token--mh0Nl3RRqpC: var(--token-SPxyso_ljBF6);
+  --plasmic-token-semantic-color-base-600: var(--token--mh0Nl3RRqpC);
+  --token-LRf5CQiQA0k3: var(--token-bDLYiIK59DFV);
+  --plasmic-token-semantic-color-base-700: var(--token-LRf5CQiQA0k3);
+  --token-a9lY5oeY-rfj: var(--token-FwlSWCcS5azi);
+  --plasmic-token-semantic-color-base-800: var(--token-a9lY5oeY-rfj);
+  --token-VQkgWI4LY4U_: var(--token-jvrNJqiyqUNs);
+  --plasmic-token-semantic-color-base-900: var(--token-VQkgWI4LY4U_);
+  --token-YfhqZBhFR3Tf: var(--token-jvrNJqiyqUNs);
+  --plasmic-token-semantic-color-neutral-950: var(--token-YfhqZBhFR3Tf);
+  --token-GnJ-SNNKN9VW: var(--token-rizoZZapabzT);
+  --plasmic-token-semantic-color-border-input-focus: var(--token-GnJ-SNNKN9VW);
+  --token-e6T5EAD53SUe: var(--token-dEkXudMX4gDj);
+  --plasmic-token-semantic-color-border-primary-focus: var(
+    --token-e6T5EAD53SUe
+  );
+  --token-GshdiAJn_R0X: var(--token--tYGLCqEUcS6);
+  --plasmic-token-semantic-color-border-primary-active: var(
+    --token-GshdiAJn_R0X
+  );
+  --token-B85Ky91sNbJg: var(--token-NzDnaGXT8vau);
+  --plasmic-token-semantic-color-border-primary-disabled: var(
+    --token-B85Ky91sNbJg
+  );
+  --token-g8NEzDKexQ2n: var(--token-sBbqN4IWcMbn);
+  --plasmic-token-semantic-color-border-success: var(--token-g8NEzDKexQ2n);
+  --token-FCrUlyvKjEsc: var(--token-zoiD_bBdGOcQ);
+  --plasmic-token-semantic-color-border-warning: var(--token-FCrUlyvKjEsc);
+  --token-P9p7_bveUQ-Y: var(--token-_XUhig7kptw8);
+  --plasmic-token-semantic-color-border-error: var(--token-P9p7_bveUQ-Y);
+  --token-0jBCaTx13nmZ: var(--token-rizoZZapabzT);
+  --plasmic-token-semantic-color-border-info: var(--token-0jBCaTx13nmZ);
+  --token-83fuvRyUVMSV: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-icon-default: var(--token-83fuvRyUVMSV);
+  --token-ir7FarWLfUZc: var(--token-N84l68BHa9oP);
+  --plasmic-token-semantic-color-icon-muted: var(--token-ir7FarWLfUZc);
+  --token-hPeryMvWuXqz: var(--token-dEkXudMX4gDj);
+  --plasmic-token-semantic-color-icon-inactive: var(--token-hPeryMvWuXqz);
+  --token-4Er9DwdOqa4U: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-icon-neutral: var(--token-4Er9DwdOqa4U);
+  --token-KwhMv9UfJkpY: var(--token-LRf5CQiQA0k3);
+  --plasmic-token-semantic-color-icon-on-subtle: var(--token-KwhMv9UfJkpY);
+  --token-7k--x_ROvDPp: var(--token-56t21AlRJeiC);
+  --plasmic-token-semantic-color-icon-on-invert: var(--token-7k--x_ROvDPp);
+  --token-NS1oDK0Gdifd: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-icon-on-image: var(--token-NS1oDK0Gdifd);
+  --token-yF_QkFOJQeax: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-icon-on-input: var(--token-yF_QkFOJQeax);
+  --token-3uv3IsrxvFDX: var(--token-9a2eXJXaNZ6N);
+  --plasmic-token-semantic-color-icon-primary-normal: var(--token-3uv3IsrxvFDX);
+  --token-4sFNPu8X92q8: var(--token--tYGLCqEUcS6);
+  --plasmic-token-semantic-color-icon-primary-hover: var(--token-4sFNPu8X92q8);
+  --token-fgZg5oWCtUF_: var(--token-9a2eXJXaNZ6N);
+  --plasmic-token-semantic-color-icon-primary-focus: var(--token-fgZg5oWCtUF_);
+  --token-fLpSs5uHaM2g: var(--token--tYGLCqEUcS6);
+  --plasmic-token-semantic-color-icon-primary-active: var(--token-fLpSs5uHaM2g);
+  --token-qPoZLb8HAnVE: var(--token-n2p6w_3hB17e);
+  --plasmic-token-semantic-color-icon-primary-disabled: var(
+    --token-qPoZLb8HAnVE
+  );
+  --token-e2C-PWYRFfbR: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-icon-on-primary: var(--token-e2C-PWYRFfbR);
+  --token-1pu15LwPHgDV: var(--token-KnHG6jTNV5NB);
+  --plasmic-token-semantic-color-icon-success: var(--token-1pu15LwPHgDV);
+  --token-L_n1SXSUr0SC: var(--token-ydOHfMfFo2LL);
+  --plasmic-token-semantic-color-icon-warning: var(--token-L_n1SXSUr0SC);
+  --token-WEYfLuW5yb5i: var(--token-R2IYBXUi-kkg);
+  --plasmic-token-semantic-color-icon-error: var(--token-WEYfLuW5yb5i);
+  --token-NQhw4qkXN9p3: var(--token-bSauKiwW7lEx);
+  --plasmic-token-semantic-color-icon-info: var(--token-NQhw4qkXN9p3);
+  --token-kui6udx4CQHa: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-icon-primary: var(--token-kui6udx4CQHa);
+  --token-c-5mI24RKsiX: var(--token-viXIfeAkcdVe);
+  --plasmic-token-semantic-color-icon-secondary: var(--token-c-5mI24RKsiX);
+  --token-Xp1yz2FkxQlj: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-text-body: var(--token-Xp1yz2FkxQlj);
+  --token-ijgM1v7zRYT-: var(--token-a9lY5oeY-rfj);
+  --plasmic-token-semantic-color-text-secondary: var(--token-ijgM1v7zRYT-);
+  --token-a5vtO4lTIi52: var(--token--mh0Nl3RRqpC);
+  --plasmic-token-semantic-color-text-subtle: var(--token-a5vtO4lTIi52);
+  --token-tRvUoT96lGE9: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-text-on-subtle: var(--token-tRvUoT96lGE9);
+  --token-g365yL0iTAb-: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-text-on-image: var(--token-g365yL0iTAb-);
+  --token-uERLLsU0rckr: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-text-on-invert: var(--token-uERLLsU0rckr);
+  --token-mPNE1rgyvmIq: var(--token-rpljxh07I7JR);
+  --plasmic-token-semantic-color-text-muted: var(--token-mPNE1rgyvmIq);
+  --token-0pChqGkdV4o5: var(--token-dEkXudMX4gDj);
+  --plasmic-token-semantic-color-text-inactive: var(--token-0pChqGkdV4o5);
+  --token-lLFSP8AGnJPK: var(--token-N84l68BHa9oP);
+  --plasmic-token-semantic-color-text-input-normal: var(--token-lLFSP8AGnJPK);
+  --token-a37BVhE-3nWn: var(--token--mh0Nl3RRqpC);
+  --plasmic-token-semantic-color-text-input-hover: var(--token-a37BVhE-3nWn);
+  --token-zjRvm0FJeHP1: var(--token-VQkgWI4LY4U_);
+  --plasmic-token-semantic-color-text-input-focus: var(--token-zjRvm0FJeHP1);
+  --token-r3gX4vLV-CHy: var(--token-9a2eXJXaNZ6N);
+  --plasmic-token-semantic-color-text-primary-normal: var(--token-r3gX4vLV-CHy);
+  --token-d3enHDBTXKI-: var(--token-LRf5CQiQA0k3);
+  --plasmic-token-semantic-color-text-primary-hover: var(--token-d3enHDBTXKI-);
+  --token-Ynq0iTbQ8KR5: var(--token-N84l68BHa9oP);
+  --plasmic-token-semantic-color-text-primary-link: var(--token-Ynq0iTbQ8KR5);
+  --token-kjH_wkwsXtTB: var(--token--mh0Nl3RRqpC);
+  --plasmic-token-semantic-color-text-primary-link-hover: var(
+    --token-kjH_wkwsXtTB
+  );
+  --token-RX0gmIvUu1fY: var(--token-N84l68BHa9oP);
+  --plasmic-token-semantic-color-text-primary-focus: var(--token-RX0gmIvUu1fY);
+  --token-fGHlgVuph4aq: var(--token-LRf5CQiQA0k3);
+  --plasmic-token-semantic-color-text-primary-active: var(--token-fGHlgVuph4aq);
+  --token--LOg7i_rOtiF: var(--token-56t21AlRJeiC);
+  --plasmic-token-semantic-color-text-primary-disabled: var(
+    --token--LOg7i_rOtiF
+  );
+  --token-Kvs2dyFhDNGA: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-text-primary-on-primary: var(
+    --token-Kvs2dyFhDNGA
+  );
+  --token-L5mDKCMqXeLq: var(--token-KnHG6jTNV5NB);
+  --plasmic-token-semantic-color-text-success: var(--token-L5mDKCMqXeLq);
+  --token-pivdPPd0NPk2: var(--token-ydOHfMfFo2LL);
+  --plasmic-token-semantic-color-text-primary-warning: var(
+    --token-pivdPPd0NPk2
+  );
+  --token-RzWHEqdqz54C: var(--token-R2IYBXUi-kkg);
+  --plasmic-token-semantic-color-text-primary-error: var(--token-RzWHEqdqz54C);
+  --token-fkRawYbxcPYb: var(--token-bSauKiwW7lEx);
+  --plasmic-token-semantic-color-text-primary-info: var(--token-fkRawYbxcPYb);
+  --token-O1r1He1-N4eC: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-subtle: var(--token-O1r1He1-N4eC);
+  --token-bGNqvy1KWRr9: var(--token-KNb7AGcpJ6rn);
+  --plasmic-token-semantic-color-emphasis: var(--token-bGNqvy1KWRr9);
+  --token--6yf7LYIqVKA: var(--token-O1r1He1-N4eC);
+  --plasmic-token-semantic-color-text-on-primary: var(--token--6yf7LYIqVKA);
+}
+
+.plasmic_tokens:where(.global_brands_seventeenSierra) {
+  --token-cp7pTejnZKUd: var(--token-9a2eXJXaNZ6N);
+  --plasmic-token-semantic-color-primary-default: var(--token-cp7pTejnZKUd);
+  --token-GVbJH5wGUXmu: var(--token--tYGLCqEUcS6);
+  --plasmic-token-semantic-color-primary-emphasis: var(--token-GVbJH5wGUXmu);
+  --token-XPrLd8jgs4iF: var(--token-NzDnaGXT8vau);
+  --plasmic-token-semantic-color-primary-muted: var(--token-XPrLd8jgs4iF);
+  --token-fChKWRppd9a2: var(--token-Iq-yo7JMJdqa);
+  --plasmic-token-semantic-color-primary-subtle: var(--token-fChKWRppd9a2);
+  --token-viXIfeAkcdVe: var(--token-_r_H8wjlH66T);
+  --plasmic-token-semantic-color-secondary-default: var(--token-viXIfeAkcdVe);
+  --token-i70UBQLNtCOB: var(--token-OV4IwELy0rU9);
+  --plasmic-token-semantic-color-secondary-emphasis: var(--token-i70UBQLNtCOB);
+  --token-4SDKFzaLGDqM: var(--token-OvdWPCJLOCoY);
+  --plasmic-token-semantic-color-secondary-muted: var(--token-4SDKFzaLGDqM);
+  --token-y4ljgQFClUJ4: var(--token-V1tA7SortyCo);
+  --plasmic-token-semantic-color-secondary-subtle: var(--token-y4ljgQFClUJ4);
+  --token-EjP1vvR_KkFv: var(--token-k6QW4YCnXvwF);
+  --plasmic-token-semantic-color-primary-950: var(--token-EjP1vvR_KkFv);
+  --token-CcQkd2KD0yiG: var(--token--iWErjg71NU4);
+  --plasmic-token-semantic-color-primary-900: var(--token-CcQkd2KD0yiG);
+  --token-snmtB4GcBlao: var(--token-msU2tA2MobX3);
+  --plasmic-token-semantic-color-primary-800: var(--token-snmtB4GcBlao);
+  --token--tYGLCqEUcS6: var(--token-8i0SwLhWZugy);
+  --plasmic-token-semantic-color-primary-700: var(--token--tYGLCqEUcS6);
+  --token-Sl12EkH00y4P: var(--token-qmLhjQz6C__R);
+  --plasmic-token-semantic-color-primary-600: var(--token-Sl12EkH00y4P);
+  --token-9a2eXJXaNZ6N: var(--token-hjdh2izVbIHi);
+  --plasmic-token-semantic-color-primary-500: var(--token-9a2eXJXaNZ6N);
+  --token-NzDnaGXT8vau: var(--token-xzw-MwF6YlyJ);
+  --plasmic-token-semantic-color-primary-400: var(--token-NzDnaGXT8vau);
+  --token-WjqpSpQLjl3l: var(--token-0FiwvDr6V6Tt);
+  --plasmic-token-semantic-color-primary-300: var(--token-WjqpSpQLjl3l);
+  --token-n2p6w_3hB17e: var(--token-DcaQYM5aIpPy);
+  --plasmic-token-semantic-color-primary-200: var(--token-n2p6w_3hB17e);
+  --token-67DELaVllbAH: var(--token-8iaSu-Q7Yeou);
+  --plasmic-token-semantic-color-primary-100: var(--token-67DELaVllbAH);
+  --token-Iq-yo7JMJdqa: var(--token-UPzwZPJHdaaO);
+  --plasmic-token-semantic-color-primary-50: var(--token-Iq-yo7JMJdqa);
+  --token-vGlQPZOSL9GA: var(--token--ByBsDowjjXZ);
+  --plasmic-token-semantic-color-secondary-950: var(--token-vGlQPZOSL9GA);
+  --token-KPLIA2f0dJrW: var(--token-vA6oa97eqFVT);
+  --plasmic-token-semantic-color-secondary-900: var(--token-KPLIA2f0dJrW);
+  --token-uz5KFX42iEO_: var(--token-mUWcuf-jjQSI);
+  --plasmic-token-semantic-color-secondary-800: var(--token-uz5KFX42iEO_);
+  --token-OV4IwELy0rU9: var(--token-8VC_gSAb-Hpb);
+  --plasmic-token-semantic-color-secondary-700: var(--token-OV4IwELy0rU9);
+  --token-09RuDH06bgXw: var(--token-1VyBn5FRi4In);
+  --plasmic-token-semantic-color-secondary-600: var(--token-09RuDH06bgXw);
+  --token-_r_H8wjlH66T: var(--token-cBwizGjXScpL);
+  --plasmic-token-semantic-color-secondary-500: var(--token-_r_H8wjlH66T);
+  --token-OvdWPCJLOCoY: var(--token-Re_8LM05Zola);
+  --plasmic-token-semantic-color-secondary-400: var(--token-OvdWPCJLOCoY);
+  --token-1XkIwgZqibQC: var(--token-AOCPCEWh4ior);
+  --plasmic-token-semantic-color-secondary-300: var(--token-1XkIwgZqibQC);
+  --token-0_8cywYpxP3f: var(--token-zoSUvIP0FnhP);
+  --plasmic-token-semantic-color-secondary-200: var(--token-0_8cywYpxP3f);
+  --token-hIxBU051Sqnn: var(--token--EBLEgpwtm1Z);
+  --plasmic-token-semantic-color-secondary-100: var(--token-hIxBU051Sqnn);
+  --token-V1tA7SortyCo: var(--token-6yLErVkcPexN);
+  --plasmic-token-semantic-color-secondary-50: var(--token-V1tA7SortyCo);
+}
+
+.plasmic_tokens:where(.global_themes_light) {
+  --token-RBhRbJtWG5jK: var(--token-y_Atr-m_faE2);
+  --plasmic-token-semantic-color-bg-surface-normal: var(--token-RBhRbJtWG5jK);
+  --token-e5Wjj4oQBzAe: var(--token-y_Atr-m_faE2);
+  --plasmic-token-semantic-color-bg-subtle: var(--token-e5Wjj4oQBzAe);
+  --token-Ya-vX66_zxAs: var(--token-n2lB76Wueu_J);
+  --plasmic-token-semantic-color-bg-muted: var(--token-Ya-vX66_zxAs);
+  --token-dqjNjHuaow7-: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-bg-page: var(--token-dqjNjHuaow7-);
+  --token-ckaxoROoCJV7: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-bg-body: var(--token-ckaxoROoCJV7);
+  --token-oftubgSib4C3: var(--token-jvrNJqiyqUNs);
+  --plasmic-token-semantic-color-bg-surface-invert: var(--token-oftubgSib4C3);
+  --token-QJrydy6204R_: var(--token-jvrNJqiyqUNs);
+  --plasmic-token-semantic-color-bg-surface-raised: var(--token-QJrydy6204R_);
+  --token-ZNUi7Wt49Chi: var(--token-jvrNJqiyqUNs);
+  --plasmic-token-semantic-color-bg-strong: var(--token-ZNUi7Wt49Chi);
+  --token-XBP_Y81L5amj: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-bg-input-normal: var(--token-XBP_Y81L5amj);
+  --token-uNWFPhyOltr_: var(--token-y_Atr-m_faE2);
+  --plasmic-token-semantic-color-bg-input-hover: var(--token-uNWFPhyOltr_);
+  --token-Dba3ih_5a2vT: var(--token-rUbmtdpANnYJ);
+  --plasmic-token-semantic-color-bg-input-focus: var(--token-Dba3ih_5a2vT);
+  --token-15yg_1b46AkZ: var(--token-y_Atr-m_faE2);
+  --plasmic-token-semantic-color-bg-input-disabled: var(--token-15yg_1b46AkZ);
+  --token-Fiz2RDpS62S_: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-primary-normal: var(--token-Fiz2RDpS62S_);
+  --token-gSqMquZFYqAm: var(--token-GVbJH5wGUXmu);
+  --plasmic-token-semantic-color-bg-primary-hover: var(--token-gSqMquZFYqAm);
+  --token-mlXmPIq-jRaB: var(--token-fChKWRppd9a2);
+  --plasmic-token-semantic-color-bg-primary-sublte: var(--token-mlXmPIq-jRaB);
+  --token-0MkV9RzVNd2l: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-primary-sublte-hover: var(
+    --token-0MkV9RzVNd2l
+  );
+  --token-gnT5gvdCOHlo: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-primary-focus: var(--token-gnT5gvdCOHlo);
+  --token-kwFcMvBPvbO5: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-primary-active: var(--token-kwFcMvBPvbO5);
+  --token-L3BYbsOHsVR7: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-primary-disabled: var(--token-L3BYbsOHsVR7);
+  --token-n26AIPK1ASym: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-primary-muted: var(--token-n26AIPK1ASym);
+  --token-zbTS1JVVFDHR: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-success-normal: var(--token-zbTS1JVVFDHR);
+  --token-HoiNQ82Ub7zT: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-success-muted: var(--token-HoiNQ82Ub7zT);
+  --token-xNkb7cdfVA1S: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-success-hover: var(--token-xNkb7cdfVA1S);
+  --token-hNF-wDYoEbC6: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-warning-hover: var(--token-hNF-wDYoEbC6);
+  --token-kuhH_4b-J6kW: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-warning-normal: var(--token-kuhH_4b-J6kW);
+  --token-DsroY5Ao1IUd: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-warning-muted: var(--token-DsroY5Ao1IUd);
+  --token-lANibXQxZl41: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-error-hover: var(--token-lANibXQxZl41);
+  --token-4TN5m5vVsiON: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-error-normal: var(--token-4TN5m5vVsiON);
+  --token-xua4aldQ3Izn: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-error-muted: var(--token-xua4aldQ3Izn);
+  --token-otJXNmlScUHc: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-info-hover: var(--token-otJXNmlScUHc);
+  --token-J0U54tIZb7GM: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-info-normal: var(--token-J0U54tIZb7GM);
+  --token-ZqNLM8rn8Ayn: var(--token-cp7pTejnZKUd);
+  --plasmic-token-semantic-color-bg-info-muted: var(--token-ZqNLM8rn8Ayn);
+}
+
+.plasmic_tokens {
+  --plsmc-standard-width: 800px;
+  --plsmc-wide-width: 1280px;
+  --plsmc-viewport-gap: 16px;
+  --plsmc-wide-chunk: calc(
+    ((var(--plsmc-wide-width) - var(--plsmc-standard-width)) / 2) -
+      var(--plsmc-viewport-gap)
+  );
+}
+
+.plasmic_default_styles,
+.plasmic_default_styles:where(.global_brands_seventeenSierra),
+.plasmic_default_styles:where(.global_brands_ayelisa),
+.plasmic_default_styles:where(.global_brands_bryantBytes),
+.plasmic_default_styles:where(.global_brands_softwareFoundry),
+.plasmic_default_styles:where(.global_themes_light),
+.plasmic_default_styles:where(.global_themes_dark) {
+  --mixin-AybORBqQgQs9_font-family: "Inter", sans-serif;
+  --mixin-AybORBqQgQs9_font-size: 16px;
+  --mixin-AybORBqQgQs9_font-weight: 400;
+  --mixin-AybORBqQgQs9_font-style: normal;
+  --mixin-AybORBqQgQs9_color: #535353;
+  --mixin-AybORBqQgQs9_text-align: left;
+  --mixin-AybORBqQgQs9_text-transform: none;
+  --mixin-AybORBqQgQs9_line-height: 1.5;
+  --mixin-AybORBqQgQs9_letter-spacing: normal;
+  --mixin-AybORBqQgQs9_white-space: pre-wrap;
+  --mixin-AybORBqQgQs9_user-select: text;
+  --mixin-AybORBqQgQs9_text-decoration-line: none;
+  --mixin-AybORBqQgQs9_text-overflow: clip;
+  --mixin-FZg5fyfSGYrE_color: #000000;
+  --mixin-FZg5fyfSGYrE_font-weight: 700;
+  --mixin-FZg5fyfSGYrE_font-size: 64px;
+  --mixin-FZg5fyfSGYrE_line-height: 1;
+  --mixin-FZg5fyfSGYrE_letter-spacing: -1px;
+  --mixin-FZg5fyfSGYrE_white-space: pre-wrap;
+  --mixin-OEdL8QrF3L1B_color: #000000;
+  --mixin-OEdL8QrF3L1B_font-size: 48px;
+  --mixin-OEdL8QrF3L1B_font-weight: 700;
+  --mixin-OEdL8QrF3L1B_letter-spacing: -0.5px;
+  --mixin-OEdL8QrF3L1B_line-height: 1.1;
+  --mixin-OEdL8QrF3L1B_white-space: pre-wrap;
+  --mixin-C76_FidEi689_color: #0070f3;
+  --mixin-C76_FidEi689_white-space: pre-wrap;
+  --mixin-RpQG7Q517nYo_color: #000000;
+  --mixin-RpQG7Q517nYo_font-size: 32px;
+  --mixin-RpQG7Q517nYo_font-weight: 600;
+  --mixin-RpQG7Q517nYo_line-height: 1.2;
+  --mixin-RpQG7Q517nYo_white-space: pre-wrap;
+  --mixin-sV0_2Mqa-S4n_color: #000000;
+  --mixin-sV0_2Mqa-S4n_font-size: 24px;
+  --mixin-sV0_2Mqa-S4n_font-weight: 600;
+  --mixin-sV0_2Mqa-S4n_line-height: 1.3;
+  --mixin-sV0_2Mqa-S4n_white-space: pre-wrap;
+  --mixin-PK3AfNCblVle_background: linear-gradient(#f8f8f8, #f8f8f8);
+  --mixin-PK3AfNCblVle_border-bottom-color: #dddddd;
+  --mixin-PK3AfNCblVle_border-bottom-style: solid;
+  --mixin-PK3AfNCblVle_border-bottom-width: 1px;
+  --mixin-PK3AfNCblVle_border-left-color: #dddddd;
+  --mixin-PK3AfNCblVle_border-left-style: solid;
+  --mixin-PK3AfNCblVle_border-left-width: 1px;
+  --mixin-PK3AfNCblVle_border-right-color: #dddddd;
+  --mixin-PK3AfNCblVle_border-right-style: solid;
+  --mixin-PK3AfNCblVle_border-right-width: 1px;
+  --mixin-PK3AfNCblVle_border-top-color: #dddddd;
+  --mixin-PK3AfNCblVle_border-top-style: solid;
+  --mixin-PK3AfNCblVle_border-top-width: 1px;
+  --mixin-PK3AfNCblVle_border-bottom-left-radius: 3px;
+  --mixin-PK3AfNCblVle_border-bottom-right-radius: 3px;
+  --mixin-PK3AfNCblVle_border-top-left-radius: 3px;
+  --mixin-PK3AfNCblVle_border-top-right-radius: 3px;
+  --mixin-PK3AfNCblVle_font-family: "Inconsolata";
+  --mixin-PK3AfNCblVle_padding-bottom: 1px;
+  --mixin-PK3AfNCblVle_padding-left: 4px;
+  --mixin-PK3AfNCblVle_padding-right: 4px;
+  --mixin-PK3AfNCblVle_padding-top: 1px;
+  --mixin-PK3AfNCblVle_white-space: pre-wrap;
+  --mixin-LeA8cwF1biH0_border-left-color: #dddddd;
+  --mixin-LeA8cwF1biH0_border-left-style: solid;
+  --mixin-LeA8cwF1biH0_border-left-width: 3px;
+  --mixin-LeA8cwF1biH0_color: #888888;
+  --mixin-LeA8cwF1biH0_padding-left: 10px;
+  --mixin-LeA8cwF1biH0_white-space: pre-wrap;
+  --mixin-M_2tX3_zUqDU_background: linear-gradient(#f8f8f8, #f8f8f8);
+  --mixin-M_2tX3_zUqDU_border-bottom-color: #dddddd;
+  --mixin-M_2tX3_zUqDU_border-bottom-style: solid;
+  --mixin-M_2tX3_zUqDU_border-bottom-width: 1px;
+  --mixin-M_2tX3_zUqDU_border-left-color: #dddddd;
+  --mixin-M_2tX3_zUqDU_border-left-style: solid;
+  --mixin-M_2tX3_zUqDU_border-left-width: 1px;
+  --mixin-M_2tX3_zUqDU_border-right-color: #dddddd;
+  --mixin-M_2tX3_zUqDU_border-right-style: solid;
+  --mixin-M_2tX3_zUqDU_border-right-width: 1px;
+  --mixin-M_2tX3_zUqDU_border-top-color: #dddddd;
+  --mixin-M_2tX3_zUqDU_border-top-style: solid;
+  --mixin-M_2tX3_zUqDU_border-top-width: 1px;
+  --mixin-M_2tX3_zUqDU_border-bottom-left-radius: 3px;
+  --mixin-M_2tX3_zUqDU_border-bottom-right-radius: 3px;
+  --mixin-M_2tX3_zUqDU_border-top-left-radius: 3px;
+  --mixin-M_2tX3_zUqDU_border-top-right-radius: 3px;
+  --mixin-M_2tX3_zUqDU_font-family: "Inconsolata";
+  --mixin-M_2tX3_zUqDU_padding-bottom: 3px;
+  --mixin-M_2tX3_zUqDU_padding-left: 6px;
+  --mixin-M_2tX3_zUqDU_padding-right: 6px;
+  --mixin-M_2tX3_zUqDU_padding-top: 3px;
+  --mixin-M_2tX3_zUqDU_white-space: pre-wrap;
+  --mixin-yHr7fLdVTJVh_display: flex;
+  --mixin-yHr7fLdVTJVh_flex-direction: column;
+  --mixin-yHr7fLdVTJVh_align-items: stretch;
+  --mixin-yHr7fLdVTJVh_justify-content: flex-start;
+  --mixin-yHr7fLdVTJVh_list-style-position: outside;
+  --mixin-yHr7fLdVTJVh_padding-left: 40px;
+  --mixin-yHr7fLdVTJVh_position: relative;
+  --mixin-yHr7fLdVTJVh_list-style-type: disc;
+  --mixin-yHr7fLdVTJVh_white-space: pre-wrap;
+  --mixin-chd0gcz7b6qP_display: flex;
+  --mixin-chd0gcz7b6qP_flex-direction: column;
+  --mixin-chd0gcz7b6qP_align-items: stretch;
+  --mixin-chd0gcz7b6qP_justify-content: flex-start;
+  --mixin-chd0gcz7b6qP_list-style-position: outside;
+  --mixin-chd0gcz7b6qP_padding-left: 40px;
+  --mixin-chd0gcz7b6qP_position: relative;
+  --mixin-chd0gcz7b6qP_list-style-type: decimal;
+  --mixin-chd0gcz7b6qP_white-space: pre-wrap;
+  --mixin-PBlnUznsits3_color: #000000;
+  --mixin-PBlnUznsits3_font-size: 20px;
+  --mixin-PBlnUznsits3_font-weight: 600;
+  --mixin-PBlnUznsits3_line-height: 1.5;
+  --mixin-PBlnUznsits3_white-space: pre-wrap;
+  --mixin-iTytBsZSFEGm_color: #000000;
+  --mixin-iTytBsZSFEGm_font-size: 16px;
+  --mixin-iTytBsZSFEGm_font-weight: 600;
+  --mixin-iTytBsZSFEGm_line-height: 1.5;
+  --mixin-iTytBsZSFEGm_white-space: pre-wrap;
+  --mixin-Z3FQx5dYr9so_color: #3291ff;
+  --mixin-Z3FQx5dYr9so_white-space: pre-wrap;
+  --mixin-THhVu1Og6S-e_white-space: pre-wrap;
+  --mixin-6pxVoYwFbhZ8_white-space: pre-wrap;
+}
+
+.plasmic_mixins,
+.plasmic_mixins:where(.global_brands_seventeenSierra),
+.plasmic_mixins:where(.global_brands_ayelisa),
+.plasmic_mixins:where(.global_brands_bryantBytes),
+.plasmic_mixins:where(.global_brands_softwareFoundry),
+.plasmic_mixins:where(.global_themes_light),
+.plasmic_mixins:where(.global_themes_dark) {
+  --mixin-K4fkV2vyKTza_box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+  --plasmic-mixin-semantic-shadow-none_box-shadow: var(
+    --mixin-K4fkV2vyKTza_box-shadow
+  );
+  --mixin-K4fkV2vyKTza_white-space: pre-wrap;
+  --plasmic-mixin-semantic-shadow-none_white-space: var(
+    --mixin-K4fkV2vyKTza_white-space
+  );
+  --mixin-YSUWFgxH9hCD_white-space: pre-wrap;
+  --plasmic-mixin-semantic-font-weights-headlines-bold_white-space: var(
+    --mixin-YSUWFgxH9hCD_white-space
+  );
+  --mixin-Wf0XhUGewJbo_white-space: pre-wrap;
+  --plasmic-mixin-semantic-font-weights-headlines-regular_white-space: var(
+    --mixin-Wf0XhUGewJbo_white-space
+  );
+  --mixin--z9EHVp3pj5l_white-space: pre-wrap;
+  --plasmic-mixin-semantic-font-weights-headlines-semi-bold_white-space: var(
+    --mixin--z9EHVp3pj5l_white-space
+  );
+  --mixin-3n0GXv2yx-2d_white-space: pre-wrap;
+  --plasmic-mixin-semantic-font-weights-headlines-semi-medium_white-space: var(
+    --mixin-3n0GXv2yx-2d_white-space
+  );
+  --mixin-F5z5lqNj337o_white-space: pre-wrap;
+  --plasmic-mixin-semantic-font-weights-body-bold_white-space: var(
+    --mixin-F5z5lqNj337o_white-space
+  );
+  --mixin-LMlmlclkn1_C_white-space: pre-wrap;
+  --plasmic-mixin-semantic-font-weights-body-regular_white-space: var(
+    --mixin-LMlmlclkn1_C_white-space
+  );
+  --mixin-UBltcrmhqIO9_white-space: pre-wrap;
+  --plasmic-mixin-semantic-font-weights-body-semi-bold_white-space: var(
+    --mixin-UBltcrmhqIO9_white-space
+  );
+  --mixin-6j6T4LWzkfVN_white-space: pre-wrap;
+  --plasmic-mixin-semantic-letter-spacing-body_white-space: var(
+    --mixin-6j6T4LWzkfVN_white-space
+  );
+  --mixin-H9VhXPnnB86I_white-space: pre-wrap;
+  --plasmic-mixin-semantic-letter-spacing-headlines_white-space: var(
+    --mixin-H9VhXPnnB86I_white-space
+  );
+  --mixin-zKMc5rgp_McR_white-space: pre-wrap;
+  --plasmic-mixin-semantic-letter-spacing-buttons_white-space: var(
+    --mixin-zKMc5rgp_McR_white-space
+  );
+  --mixin-kars0HE8W3n2_white-space: pre-wrap;
+  --plasmic-mixin-semantic-letter-spacing-captions_white-space: var(
+    --mixin-kars0HE8W3n2_white-space
+  );
+  --mixin-sPLPPsC3g2ty_white-space: pre-wrap;
+  --plasmic-mixin-semantic-text-case-none_white-space: var(
+    --mixin-sPLPPsC3g2ty_white-space
+  );
+  --mixin-4Xzx7ZNvVa2O_white-space: pre-wrap;
+  --plasmic-mixin-semantic-text-case-captions_white-space: var(
+    --mixin-4Xzx7ZNvVa2O_white-space
+  );
+  --mixin-rwHjAsMzm7Um_white-space: pre-wrap;
+  --plasmic-mixin-semantic-text-case-buttons_white-space: var(
+    --mixin-rwHjAsMzm7Um_white-space
+  );
+  --mixin-7pxMKbfvjX4o_white-space: pre-wrap;
+  --plasmic-mixin-semantic-text-case-headlines_white-space: var(
+    --mixin-7pxMKbfvjX4o_white-space
+  );
+  --mixin-5s_QpfoUwHkD_white-space: pre-wrap;
+  --plasmic-mixin-semantic-text-decoration-none_white-space: var(
+    --mixin-5s_QpfoUwHkD_white-space
+  );
+  --mixin-LgGBZ4snzwoW_white-space: pre-wrap;
+  --plasmic-mixin-semantic-text-decoration-buttons_white-space: var(
+    --mixin-LgGBZ4snzwoW_white-space
+  );
+  --mixin-srt20bnmuxG-_white-space: pre-wrap;
+  --plasmic-mixin-semantic-text-decoration-captions_white-space: var(
+    --mixin-srt20bnmuxG-_white-space
+  );
+  --mixin-zcP25PQtsUdY_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-colossus-bold_white-space: var(
+    --mixin-zcP25PQtsUdY_white-space
+  );
+  --mixin-O2dwMamu741X_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-colossus-regular_white-space: var(
+    --mixin-O2dwMamu741X_white-space
+  );
+  --mixin-DK9t_GDHYFGt_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-display-bold_white-space: var(
+    --mixin-DK9t_GDHYFGt_white-space
+  );
+  --mixin-6sCCbnCl2SFx_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-display-regular_white-space: var(
+    --mixin-6sCCbnCl2SFx_white-space
+  );
+  --mixin-sJFTHvbDqXcJ_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-hero-regular_white-space: var(
+    --mixin-sJFTHvbDqXcJ_white-space
+  );
+  --mixin-e8kfCd1UIybh_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-uber-bold_white-space: var(
+    --mixin-e8kfCd1UIybh_white-space
+  );
+  --mixin-luxFGAJpn4bs_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-uber-regular_white-space: var(
+    --mixin-luxFGAJpn4bs_white-space
+  );
+  --mixin-wi5Adg0GJtfH_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-1-bold_white-space: var(
+    --mixin-wi5Adg0GJtfH_white-space
+  );
+  --mixin-o4Hg28wzgpJB_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-1-regular_white-space: var(
+    --mixin-o4Hg28wzgpJB_white-space
+  );
+  --mixin-A52Bf17k0gf8_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-2-bold_white-space: var(
+    --mixin-A52Bf17k0gf8_white-space
+  );
+  --mixin-fApskfP4H7XD_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-2-regular_white-space: var(
+    --mixin-fApskfP4H7XD_white-space
+  );
+  --mixin-BLrvqSUCg6NJ_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-2-medium_white-space: var(
+    --mixin-BLrvqSUCg6NJ_white-space
+  );
+  --mixin-ejmngE-tNDYw_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-3-bold_white-space: var(
+    --mixin-ejmngE-tNDYw_white-space
+  );
+  --mixin-NHYWfq-L7bPm_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-3-regular_white-space: var(
+    --mixin-NHYWfq-L7bPm_white-space
+  );
+  --mixin-pboe4-26JzW2_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-4-bold_white-space: var(
+    --mixin-pboe4-26JzW2_white-space
+  );
+  --mixin-byttK-gGHOIy_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-4-regular_white-space: var(
+    --mixin-byttK-gGHOIy_white-space
+  );
+  --mixin-UtaUBUc0BJkC_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-5-bold_white-space: var(
+    --mixin-UtaUBUc0BJkC_white-space
+  );
+  --mixin-5w50wF8B5RF0_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-headline-5-regular_white-space: var(
+    --mixin-5w50wF8B5RF0_white-space
+  );
+  --mixin-yiGL47EpXQXI_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-lead-bold_white-space: var(
+    --mixin-yiGL47EpXQXI_white-space
+  );
+  --mixin-ONFNCwyP7R97_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-lead-regular_white-space: var(
+    --mixin-ONFNCwyP7R97_white-space
+  );
+  --mixin-uerYmDKLoW54_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-body-bold_white-space: var(
+    --mixin-uerYmDKLoW54_white-space
+  );
+  --mixin-gosDrMkHML0t_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-body-regular_white-space: var(
+    --mixin-gosDrMkHML0t_white-space
+  );
+  --mixin-tJsl8N5IOKEd_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-body-semi-bold_white-space: var(
+    --mixin-tJsl8N5IOKEd_white-space
+  );
+  --mixin-6lMj94QaUpeo_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-small-bold_white-space: var(
+    --mixin-6lMj94QaUpeo_white-space
+  );
+  --mixin-vne3RwG4PlaQ_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-small-regular_white-space: var(
+    --mixin-vne3RwG4PlaQ_white-space
+  );
+  --mixin-wgw5VcnMYKnP_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-caption-bold_white-space: var(
+    --mixin-wgw5VcnMYKnP_white-space
+  );
+  --mixin-oHRokZwOZP-7_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-caption-regular_white-space: var(
+    --mixin-oHRokZwOZP-7_white-space
+  );
+  --mixin-T6wCphjr-dPC_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-caption-semi-bold_white-space: var(
+    --mixin-T6wCphjr-dPC_white-space
+  );
+  --mixin-01DQijvnjBPa_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-x-small-bold_white-space: var(
+    --mixin-01DQijvnjBPa_white-space
+  );
+  --mixin-UASQnNu09ldz_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-x-small-regular_white-space: var(
+    --mixin-UASQnNu09ldz_white-space
+  );
+  --mixin-7WxarTXiIcRL_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-tiny-bold_white-space: var(
+    --mixin-7WxarTXiIcRL_white-space
+  );
+  --mixin-rpUZkx_Ds-ot_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-tiny-regular_white-space: var(
+    --mixin-rpUZkx_Ds-ot_white-space
+  );
+  --mixin-ia_5hmd0JXRG_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-button-normal-bold_white-space: var(
+    --mixin-ia_5hmd0JXRG_white-space
+  );
+  --mixin-nXsZ6M75jNrl_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-button-normal-regular_white-space: var(
+    --mixin-nXsZ6M75jNrl_white-space
+  );
+  --mixin-0_Vtxhsr5LyH_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-button-large-bold_white-space: var(
+    --mixin-0_Vtxhsr5LyH_white-space
+  );
+  --mixin-tivmjr4WTChM_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-button-large-regular_white-space: var(
+    --mixin-tivmjr4WTChM_white-space
+  );
+  --mixin-tuBO2NMrjpxX_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-button-x-large-bold_white-space: var(
+    --mixin-tuBO2NMrjpxX_white-space
+  );
+  --mixin-SOsO6xz8k6il_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-button-x-large-regular_white-space: var(
+    --mixin-SOsO6xz8k6il_white-space
+  );
+  --mixin-KjRzieqj04RK_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-input-normal-bold_white-space: var(
+    --mixin-KjRzieqj04RK_white-space
+  );
+  --mixin-Dlgb14djjpvI_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-input-normal-regular_white-space: var(
+    --mixin-Dlgb14djjpvI_white-space
+  );
+  --mixin-Ubj0hS378gRR_white-space: pre-wrap;
+  --plasmic-mixin-semantic-typography-input-large-bold_white-space: var(
+    --mixin-Ubj0hS378gRR_white-space
+  );
+  --mixin-8-vMn4l0I7iq_white-space: pre-wrap;
+  --plasmic-mixin-semantic-ui-border-radius_white-space: var(
+    --mixin-8-vMn4l0I7iq_white-space
+  );
+  --mixin-KT2dGTF6WK4m_white-space: pre-wrap;
+  --plasmic-mixin-semantic-comp-border-radius_white-space: var(
+    --mixin-KT2dGTF6WK4m_white-space
+  );
+  --mixin-LEtxyRfVap9b_white-space: pre-wrap;
+  --plasmic-mixin-semantic-border-width-none_white-space: var(
+    --mixin-LEtxyRfVap9b_white-space
+  );
+  --mixin-45a-MyyuwFDI_white-space: pre-wrap;
+  --plasmic-mixin-semantic-border-width-default_white-space: var(
+    --mixin-45a-MyyuwFDI_white-space
+  );
+}
+
+:where(.all) {
+  display: block;
+  white-space: inherit;
+  grid-row: auto;
+  grid-column: auto;
+  position: relative;
+  background: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  box-sizing: border-box;
+  text-decoration-line: none;
+  margin: 0;
+  border-width: 0px;
+}
+:where(.__wab_expr_html_text *) {
+  white-space: inherit;
+  grid-row: auto;
+  grid-column: auto;
+  background: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  box-sizing: border-box;
+  text-decoration-line: none;
+  margin: 0;
+  border-width: 0px;
+}
+
+:where(.img) {
+  display: inline-block;
+}
+:where(.__wab_expr_html_text img) {
+  white-space: inherit;
+}
+
+:where(.li) {
+  display: list-item;
+}
+:where(.__wab_expr_html_text li) {
+  white-space: inherit;
+}
+
+:where(.span) {
+  display: inline;
+  position: static;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+:where(.__wab_expr_html_text span) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
+:where(.input) {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+:where(.__wab_expr_html_text input) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+
+:where(.textarea) {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+:where(.__wab_expr_html_text textarea) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+
+:where(.button) {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: none;
+  align-items: flex-start;
+  text-align: center;
+  padding: 2px 6px;
+  border: 1px solid lightgray;
+}
+:where(.__wab_expr_html_text button) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: none;
+  align-items: flex-start;
+  text-align: center;
+  padding: 2px 6px;
+  border: 1px solid lightgray;
+}
+
+:where(.code) {
+  font-family: inherit;
+  line-height: inherit;
+}
+:where(.__wab_expr_html_text code) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+:where(.pre) {
+  font-family: inherit;
+  line-height: inherit;
+}
+:where(.__wab_expr_html_text pre) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+:where(.p) {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+:where(.__wab_expr_html_text p) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
+:where(.h1) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h1) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h2) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h2) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h3) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h3) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h4) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h4) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h5) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h5) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h6) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h6) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.address) {
+  font-style: inherit;
+}
+:where(.__wab_expr_html_text address) {
+  white-space: inherit;
+  font-style: inherit;
+}
+
+:where(.a) {
+  color: inherit;
+}
+:where(.__wab_expr_html_text a) {
+  white-space: inherit;
+  color: inherit;
+}
+
+:where(.ol) {
+  list-style-type: none;
+  padding: 0;
+}
+:where(.__wab_expr_html_text ol) {
+  white-space: inherit;
+  list-style-type: none;
+  padding: 0;
+}
+
+:where(.ul) {
+  list-style-type: none;
+  padding: 0;
+}
+:where(.__wab_expr_html_text ul) {
+  white-space: inherit;
+  list-style-type: none;
+  padding: 0;
+}
+
+:where(.select) {
+  padding: 2px 6px;
+}
+:where(.__wab_expr_html_text select) {
+  white-space: inherit;
+  padding: 2px 6px;
+}
+
+.plasmic_default__component_wrapper {
+  display: grid;
+}
+.plasmic_default__inline {
+  display: inline;
+}
+.plasmic_page_wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: stretch;
+  align-self: start;
+}
+.plasmic_page_wrapper > * {
+  height: auto !important;
+}
+.__wab_expr_html_text {
+  white-space: normal;
+}
+:where(.root_reset) {
+  font-family: var(--mixin-AybORBqQgQs9_font-family);
+  font-size: var(--mixin-AybORBqQgQs9_font-size);
+  font-weight: var(--mixin-AybORBqQgQs9_font-weight);
+  font-style: var(--mixin-AybORBqQgQs9_font-style);
+  color: var(--mixin-AybORBqQgQs9_color);
+  text-align: var(--mixin-AybORBqQgQs9_text-align);
+  text-transform: var(--mixin-AybORBqQgQs9_text-transform);
+  line-height: var(--mixin-AybORBqQgQs9_line-height);
+  letter-spacing: var(--mixin-AybORBqQgQs9_letter-spacing);
+  white-space: var(--mixin-AybORBqQgQs9_white-space);
+}
+
+:where(.root_reset) h1:where(.h1),
+h1:where(.root_reset.h1),
+:where(.root_reset .__wab_expr_html_text) h1,
+:where(.root_reset_tags) h1,
+h1:where(.root_reset_tags) {
+  color: var(--mixin-FZg5fyfSGYrE_color);
+  font-weight: var(--mixin-FZg5fyfSGYrE_font-weight);
+  font-size: var(--mixin-FZg5fyfSGYrE_font-size);
+  line-height: var(--mixin-FZg5fyfSGYrE_line-height);
+  letter-spacing: var(--mixin-FZg5fyfSGYrE_letter-spacing);
+}
+
+:where(.root_reset) h2:where(.h2),
+h2:where(.root_reset.h2),
+:where(.root_reset .__wab_expr_html_text) h2,
+:where(.root_reset_tags) h2,
+h2:where(.root_reset_tags) {
+  color: var(--mixin-OEdL8QrF3L1B_color);
+  font-size: var(--mixin-OEdL8QrF3L1B_font-size);
+  font-weight: var(--mixin-OEdL8QrF3L1B_font-weight);
+  letter-spacing: var(--mixin-OEdL8QrF3L1B_letter-spacing);
+  line-height: var(--mixin-OEdL8QrF3L1B_line-height);
+}
+
+:where(.root_reset) a:where(.a),
+a:where(.root_reset.a),
+:where(.root_reset .__wab_expr_html_text) a,
+:where(.root_reset_tags) a,
+a:where(.root_reset_tags) {
+  color: var(--mixin-C76_FidEi689_color);
+}
+
+:where(.root_reset) h3:where(.h3),
+h3:where(.root_reset.h3),
+:where(.root_reset .__wab_expr_html_text) h3,
+:where(.root_reset_tags) h3,
+h3:where(.root_reset_tags) {
+  color: var(--mixin-RpQG7Q517nYo_color);
+  font-size: var(--mixin-RpQG7Q517nYo_font-size);
+  font-weight: var(--mixin-RpQG7Q517nYo_font-weight);
+  line-height: var(--mixin-RpQG7Q517nYo_line-height);
+}
+
+:where(.root_reset) h4:where(.h4),
+h4:where(.root_reset.h4),
+:where(.root_reset .__wab_expr_html_text) h4,
+:where(.root_reset_tags) h4,
+h4:where(.root_reset_tags) {
+  color: var(--mixin-sV0_2Mqa-S4n_color);
+  font-size: var(--mixin-sV0_2Mqa-S4n_font-size);
+  font-weight: var(--mixin-sV0_2Mqa-S4n_font-weight);
+  line-height: var(--mixin-sV0_2Mqa-S4n_line-height);
+}
+
+:where(.root_reset) code:where(.code),
+code:where(.root_reset.code),
+:where(.root_reset .__wab_expr_html_text) code,
+:where(.root_reset_tags) code,
+code:where(.root_reset_tags) {
+  background: #f8f8f8;
+  font-family: var(--mixin-PK3AfNCblVle_font-family);
+  border-radius: var(--mixin-PK3AfNCblVle_border-top-left-radius)
+    var(--mixin-PK3AfNCblVle_border-top-right-radius)
+    var(--mixin-PK3AfNCblVle_border-bottom-right-radius)
+    var(--mixin-PK3AfNCblVle_border-bottom-left-radius);
+  padding: var(--mixin-PK3AfNCblVle_padding-top)
+    var(--mixin-PK3AfNCblVle_padding-right)
+    var(--mixin-PK3AfNCblVle_padding-bottom)
+    var(--mixin-PK3AfNCblVle_padding-left);
+  border-top: var(--mixin-PK3AfNCblVle_border-top-width)
+    var(--mixin-PK3AfNCblVle_border-top-style)
+    var(--mixin-PK3AfNCblVle_border-top-color);
+  border-right: var(--mixin-PK3AfNCblVle_border-right-width)
+    var(--mixin-PK3AfNCblVle_border-right-style)
+    var(--mixin-PK3AfNCblVle_border-right-color);
+  border-bottom: var(--mixin-PK3AfNCblVle_border-bottom-width)
+    var(--mixin-PK3AfNCblVle_border-bottom-style)
+    var(--mixin-PK3AfNCblVle_border-bottom-color);
+  border-left: var(--mixin-PK3AfNCblVle_border-left-width)
+    var(--mixin-PK3AfNCblVle_border-left-style)
+    var(--mixin-PK3AfNCblVle_border-left-color);
+}
+
+:where(.root_reset) blockquote:where(.blockquote),
+blockquote:where(.root_reset.blockquote),
+:where(.root_reset .__wab_expr_html_text) blockquote,
+:where(.root_reset_tags) blockquote,
+blockquote:where(.root_reset_tags) {
+  color: var(--mixin-LeA8cwF1biH0_color);
+  padding-left: var(--mixin-LeA8cwF1biH0_padding-left);
+  border-left: var(--mixin-LeA8cwF1biH0_border-left-width)
+    var(--mixin-LeA8cwF1biH0_border-left-style)
+    var(--mixin-LeA8cwF1biH0_border-left-color);
+}
+
+:where(.root_reset) pre:where(.pre),
+pre:where(.root_reset.pre),
+:where(.root_reset .__wab_expr_html_text) pre,
+:where(.root_reset_tags) pre,
+pre:where(.root_reset_tags) {
+  background: #f8f8f8;
+  font-family: var(--mixin-M_2tX3_zUqDU_font-family);
+  border-radius: var(--mixin-M_2tX3_zUqDU_border-top-left-radius)
+    var(--mixin-M_2tX3_zUqDU_border-top-right-radius)
+    var(--mixin-M_2tX3_zUqDU_border-bottom-right-radius)
+    var(--mixin-M_2tX3_zUqDU_border-bottom-left-radius);
+  padding: var(--mixin-M_2tX3_zUqDU_padding-top)
+    var(--mixin-M_2tX3_zUqDU_padding-right)
+    var(--mixin-M_2tX3_zUqDU_padding-bottom)
+    var(--mixin-M_2tX3_zUqDU_padding-left);
+  border-top: var(--mixin-M_2tX3_zUqDU_border-top-width)
+    var(--mixin-M_2tX3_zUqDU_border-top-style)
+    var(--mixin-M_2tX3_zUqDU_border-top-color);
+  border-right: var(--mixin-M_2tX3_zUqDU_border-right-width)
+    var(--mixin-M_2tX3_zUqDU_border-right-style)
+    var(--mixin-M_2tX3_zUqDU_border-right-color);
+  border-bottom: var(--mixin-M_2tX3_zUqDU_border-bottom-width)
+    var(--mixin-M_2tX3_zUqDU_border-bottom-style)
+    var(--mixin-M_2tX3_zUqDU_border-bottom-color);
+  border-left: var(--mixin-M_2tX3_zUqDU_border-left-width)
+    var(--mixin-M_2tX3_zUqDU_border-left-style)
+    var(--mixin-M_2tX3_zUqDU_border-left-color);
+}
+
+:where(.root_reset) ul:where(.ul),
+ul:where(.root_reset.ul),
+:where(.root_reset .__wab_expr_html_text) ul,
+:where(.root_reset_tags) ul,
+ul:where(.root_reset_tags) {
+  display: var(--mixin-yHr7fLdVTJVh_display);
+  flex-direction: var(--mixin-yHr7fLdVTJVh_flex-direction);
+  align-items: var(--mixin-yHr7fLdVTJVh_align-items);
+  justify-content: var(--mixin-yHr7fLdVTJVh_justify-content);
+  list-style-position: var(--mixin-yHr7fLdVTJVh_list-style-position);
+  padding-left: var(--mixin-yHr7fLdVTJVh_padding-left);
+  position: var(--mixin-yHr7fLdVTJVh_position);
+  list-style-type: var(--mixin-yHr7fLdVTJVh_list-style-type);
+  flex-column-gap: var(--mixin-yHr7fLdVTJVh_flex-column-gap);
+}
+
+:where(.root_reset) ol:where(.ol),
+ol:where(.root_reset.ol),
+:where(.root_reset .__wab_expr_html_text) ol,
+:where(.root_reset_tags) ol,
+ol:where(.root_reset_tags) {
+  display: var(--mixin-chd0gcz7b6qP_display);
+  flex-direction: var(--mixin-chd0gcz7b6qP_flex-direction);
+  align-items: var(--mixin-chd0gcz7b6qP_align-items);
+  justify-content: var(--mixin-chd0gcz7b6qP_justify-content);
+  list-style-position: var(--mixin-chd0gcz7b6qP_list-style-position);
+  padding-left: var(--mixin-chd0gcz7b6qP_padding-left);
+  position: var(--mixin-chd0gcz7b6qP_position);
+  list-style-type: var(--mixin-chd0gcz7b6qP_list-style-type);
+  flex-column-gap: var(--mixin-chd0gcz7b6qP_flex-column-gap);
+}
+
+:where(.root_reset) h5:where(.h5),
+h5:where(.root_reset.h5),
+:where(.root_reset .__wab_expr_html_text) h5,
+:where(.root_reset_tags) h5,
+h5:where(.root_reset_tags) {
+  color: var(--mixin-PBlnUznsits3_color);
+  font-size: var(--mixin-PBlnUznsits3_font-size);
+  font-weight: var(--mixin-PBlnUznsits3_font-weight);
+  line-height: var(--mixin-PBlnUznsits3_line-height);
+}
+
+:where(.root_reset) h6:where(.h6),
+h6:where(.root_reset.h6),
+:where(.root_reset .__wab_expr_html_text) h6,
+:where(.root_reset_tags) h6,
+h6:where(.root_reset_tags) {
+  color: var(--mixin-iTytBsZSFEGm_color);
+  font-size: var(--mixin-iTytBsZSFEGm_font-size);
+  font-weight: var(--mixin-iTytBsZSFEGm_font-weight);
+  line-height: var(--mixin-iTytBsZSFEGm_line-height);
+}
+
+:where(.root_reset) a:where(.a):hover,
+a:where(.root_reset.a):hover,
+:where(.root_reset .__wab_expr_html_text) a:hover,
+:where(.root_reset_tags) a:hover,
+a:where(.root_reset_tags):hover {
+  color: var(--mixin-Z3FQx5dYr9so_color);
+}
+
+:where(.root_reset) li:where(.li),
+li:where(.root_reset.li),
+:where(.root_reset .__wab_expr_html_text) li,
+:where(.root_reset_tags) li,
+li:where(.root_reset_tags) {
+}
+
+:where(.root_reset) p:where(.p),
+p:where(.root_reset.p),
+:where(.root_reset .__wab_expr_html_text) p,
+:where(.root_reset_tags) p,
+p:where(.root_reset_tags) {
+}
